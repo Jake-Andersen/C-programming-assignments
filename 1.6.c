@@ -16,12 +16,6 @@ int main()
         printf("The number %d is negative\n", number);
     }
 
-    if(number % 2 == 0) {
-        printf("The number %d is even\n", number);
-    } else {
-        printf("The number %d is odd\n", number);
-    }
-
 	return 0;
     
 }

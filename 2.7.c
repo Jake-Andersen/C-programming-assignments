@@ -15,22 +15,6 @@ int main()
     printf("Address of: %p, Value of: %p, Memory size: %lu\n", &ptrd, ptrd, sizeof(ptrd));
     printf("Address of: %p, Value of: %p, Memory size: %lu\n", &ptri, ptri, sizeof(ptri));
     printf("Address of: %p, Value of: %p, Memory size: %lu\n", &ptrc, ptrc, sizeof(ptrc));
-
-    int firstNum;
-    int secondNum;
-
-    printf("Type a first number: \n");
-
-    scanf("%d", &firstNum);
-
-    printf("Type a second number: \n");
-
-    scanf("%d", &secondNum);
-
-    int* ptr1 = &firstNum;
-    int* ptr2 = &secondNum;
-
-    printf("Numbers added together: %d", *ptr1 + *ptr2);
     
 	return 0;
 }
